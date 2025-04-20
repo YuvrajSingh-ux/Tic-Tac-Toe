@@ -3,9 +3,16 @@
     padding:0;
 
 }
+a{
+    text-decoration:none;
+}
 main{
     background-color: #E5B3C5;
     height:500px;
+}
+header{
+    display:flex;
+    justify-content:space-evenly;
 }
 #page-heading
 {
@@ -17,6 +24,46 @@ main{
     color:white;
     font-size:40px;
     font-weight: 600;
+    width:100%
+}
+#back-button
+{
+    /* height:100%; */
+    width:100px;
+    border:none;
+    background-color:#892F50;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+#button{
+    height:50px;
+    width:100px;
+    border:none;
+    background-color:#C65880;
+    color:white;
+    text-decoration: none;
+    font-weight:600;
+    margin:10px;
+}
+#button:hover{
+    border:2px solid white;
+    cursor:pointer;
+}
+#button1{
+    height:50px;
+    width:100px;
+    border:none;
+    background-color:#C65880;
+    color:white;
+    text-decoration: none;
+    font-weight:600;
+    margin-left: 120px;
+}
+#button1:hover{
+    border:2px solid white;
+    cursor:pointer;
 }
 #play-box
 {
@@ -36,6 +83,53 @@ main{
     color:white;
     font-size:40px;
     font-weight: 600;
+}
+#Entry-buttons{
+    height:300px;
+    width:30%;
+    border: 1px solid black;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color:#892F50;
+    color:white;
+    font-size:40px;
+    font-weight: 600;
+    flex-wrap:wrap;
+}
+#signup-form{
+    height:400px;
+    width:30%;
+    border: 1px solid black;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color:#892F50;
+    color:white;
+    font-size:40px;
+    font-weight: 600;
+    border:none;
+}
+#login-div
+{
+    height:300px;
+    width:30%;
+    border: 1px solid black;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color:#892F50;
+    color:white;
+    font-size:40px;
+    font-weight: 600;
+    border:none;
+}
+.left-space
+{
+    margin-left:200px;
+}
+form{
+    width:70%;
 }
 #content
 {
@@ -69,6 +163,18 @@ main{
     border:2px solid white;
     cursor:pointer;
     /* opacity:0.5; */
+}
+#entry
+{
+    height:50px;
+    width:100px;
+    border:none;
+    background-color:#C65880;
+    color:white;
+}
+#entry:hover{
+    border:2px solid white;
+    cursor:pointer;
 }
 #gamezone
 {
@@ -231,4 +337,23 @@ footer a{
 footer a:hover{
     border:2px solid white;
     cursor:pointer;
+}
+
+#login-content{
+    font-size:1.2rem;
+    padding:10px;
+}
+
+.input-box
+{
+    height:30px;
+    width:100%;
+    border:none;
+    padding:5px;
+    margin:10px;
+    background-color: #E5B3C5;
+}
+#login-button{
+    display:flex;
+    justify-content:center;
 }

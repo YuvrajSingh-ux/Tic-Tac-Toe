@@ -61,5 +61,14 @@ box7.addEventListener("click",()=>callback(box7));
 box8.addEventListener("click",()=>callback(box8));
 box9.addEventListener("click",()=>callback(box9));
 
+// document.addEventListener("DOMContentLoaded", () => {
+//     let form = document.querySelector("#login-form");
+//     form.addEventListener("submit", (evt) => {
+//         evt.preventDefault();
+//         window.location.href = "game.html";
+//     });
+// });
+
+
 
 
